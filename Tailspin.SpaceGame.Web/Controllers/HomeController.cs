@@ -60,7 +60,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
             try
             {
                 // Form the query predicate.
-                // This expression selects all scores that match the provided game 
+                // This expression selects all scores that match the provided Game
                 // mode and region (map).
                 // Select the score if the game mode or region is empty.
                 Expression<Func<Score, bool>> queryPredicate = score =>
